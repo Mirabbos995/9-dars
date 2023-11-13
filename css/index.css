@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    height: 100vh;
+    background: rgb(89,178,221);
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+nav{
+    padding: 20px 0px;
+    position: fixed;
+    background: rgba(19, 145, 206, 0.7);
+    width: 100%;
+    z-index: 100;
+    backdrop-filter: blur(3px);
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    gap: 32px;
+   margin-left: 500px;
+}
+
+.nav-item a{
+    font-size: 16px;
+    color: #25468A;
+}
+
+.nav-item a:hover{
+    color: white;
+    font-weight: 500;
+}
+
+.nav-btn{
+    background: #59b2dd;
+    border: none;
+    border-radius: 24px;
+    padding: 9px 18px;
+    font-size: 16px;
+}
+
+.nav-btn:hover{
+background: white;
+color: black;\
+}
+
+.hero{
+    padding-top: 130px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.hero-title{
+    margin-bottom: 8px;
+    width: 560px;
+    height: 108px;
+  font-size: 92px;
+  font-weight: 700;
+   color: #25468A;
+   margin-left: 100px;
+}
+
+.hero-info{
+    width: 560px;
+    height: 24px;
+    color: #3B4A6B;
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-bottom: 42px;
+}
+
+.text{
+    width: 560px;
+    height: 55px;
+    color: #3B4A6B;
+    font-size: 20px;
+    font-weight: 400;ight: 55px;
+    margin-bottom: 24px;
+    margin-left: 100px;
+}
+
+.hero-left-btn{
+    border-radius: 26px;
+    background: #F7BA0E;
+    width: 250px;
+    padding: 8px 75px;
+    margin-left: 100px;
+}
+
+ .hero-right{
+    width: 560px;
+    height: 401px;
+    margin-top: 100px;
+ }
+
+.cards{
+    display: flex;
+    padding: 170px 0px 30px;
+    margin-left: 160px;
+    gap: 60px;
+}
+
+.card{
+    background-color: #1391CE;
+    width: 352px;
+    height: 189px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 63px;
+    color: white;
+}
+
+.texts-text{
+    color: #1391CE;
+   font-family: Inter;
+   font-size: 36px;
+   font-weight: 300;
+   margin-bottom: 15.83px;
+   width: 387px;
+   text-align: center;
+   margin-left: 526px;
+}
+
+.yellowimg{
+    margin-bottom: 96.17px;
+    width: 160px;
+    height: 8px;
+    margin-left: 639px;
+}
+
+.img-texts{
+    display: flex;
+    align-items: center;
+}
+
+.rabbitimg{
+    margin-left: 160px;
+    margin-right: 112px;
+    margin-bottom: 128px;
+}
+
+.rabitimg-text{
+    di
+}
+
+.rabit-text{
+    color: #25468A;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.rabit-text2{
+    width: 448px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1391CE;
+    margin-bottom: 32px;
+}
+
+.rabit-text3{
+    width: 448px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--Gray-2, #4F4F4F);
+}
+
+.info-texts{
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    margin-bottom: 128px;
+}
+
+.info-textfotmat{
+    color: #25468A;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.info-textinput{
+    width: 448px;
+    color: #1391CE;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.info-textmost{
+    width: 448px;
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.info-textoutput{
+    width: 448px;
+    color: #1391CE;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.info-textfile{
+    width: 441px;
+    color: var(--Gray-2, #4F4F4F);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+.info-textvideo{
+    width: 441px;
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.info-textaudio{
+     width: 441px;
+     color: var(--Gray-2, #4F4F4F);
+     font-size: 16px;
+     font-weight: 400;
+     margin-bottom: 10px;
+}
+
+.info-textpass{
+     width: 441px;
+     color: var(--Gray-2, #4F4F4F);
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+}
+
+.infimg{
+    margin-left: 129px;
+}
+
+.cartoontexts{
+    display: flex;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.cartonimg{
+    margin-left: 160px;
+    margin-right: 112px;
+}
+
+.carton-text{
+    color: #25468A;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.carton-more{
+    width: 448px;
+    margin-bottom: 32px;
+    color: #1391CE;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.carton-range{
+    width: 408px;
+    margin-bottom: 8px;
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.carton-batch{
+    width: 408px;
+    margin-bottom: 8px;
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.carton-live{
+    margin-bottom: 8px;
+    width: 408px;
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.carton-support{
+    margin-bottom: 8px;
+    width: 408px;
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.carton-marker{
+    margin-bottom: 8px;
+    width: 408px;
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.carton-cart{
+    margin-bottom: 8px;
+    width: 408px;
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.carton-quality{
+    margin-bottom: 8px;
+    width: 408px;
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.carton-crt{
+    width: 408px;
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 58px;
+}
+
+
+.footer-place{
+    background: #1391CE;
+    padding: 30px 0px;
+}
+
+.line{
+    margin-bottom: 22px;
+    color: white;
+}
+
+.links{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.links a:hover{
+    color: white;
+}
+
+.last-links{
+    margin-left: 300px;
+}
